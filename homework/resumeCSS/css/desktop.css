@@ -1,0 +1,74 @@
+body{
+font-family:sans-serif;
+}
+h1 {
+  color: pink
+}
+h3 {
+  color: grey
+}
+h2 {
+  color: pink
+}
+h4 {
+    color: grey
+}
+h5 {
+    color:grey
+}
+
+nav {
+
+}
+nav ul{
+
+}
+nav ul li {
+  list-style: none;
+}
+nav ul li a {
+text-decoration: none;
+color:aqua;
+
+}
+nav ul li a:hover {
+  background-color: pink
+}
+
+#centerText{
+    text-align: center;
+
+  }
+.aquaOut {
+  color: aqua;
+}
+.greyOut {
+  color:grey ;
+}
+.pinkOut {
+  color:pink;
+}
+header {
+  background-color: grey;
+  width: 960px;
+  padding: 10px;
+  padding top: 10px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  padding-left:10px;
+  margin: 0 auto;
+}
+main{
+  background-color: white;
+  width: 960px;
+  margin: 0 auto;
+  padding: 10px;
+  padding top: 10px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  padding-left:10px;
+}
+
+section{
+  margin-bottom: 100px;
+}
