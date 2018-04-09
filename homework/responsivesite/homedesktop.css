@@ -1,0 +1,65 @@
+<!DOCTYPE HTML>
+
+<style>
+h2 {
+  font-family: monospace;
+  text-align: center;
+}
+p {
+  font-family: monospace;
+  text-align: center;
+}
+
+body {
+  margin: 0;
+}
+
+
+.header {
+    background-color: lightblue;
+    padding: 20px;
+    text-align: center;
+    font-family: monospace;
+}
+
+
+.topnav {
+    overflow: hidden;
+    background-color: skyblue;
+}
+
+
+.topnav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: monospace;
+}
+
+.topnav a:hover {
+    background-color: aliceblue;
+    color: black;
+}
+
+.column {
+    float: center;
+    width: 100%;
+    padding: 15px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.footer {
+    background-color: lightblue;
+    padding: 10px;
+    text-align: center;
+}
+
+</style>

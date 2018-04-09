@@ -1,0 +1,12 @@
+@import "desktop.css";
+
+.container {
+width: 960px;
+margin:0 auto;
+display: grid;
+
+grid-template-areas: " header" "main" "footer"
+
+grid-template-rows: 1fr auto 1fr;
+grid-template-columns: 960px;
+}

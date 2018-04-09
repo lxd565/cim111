@@ -1,0 +1,57 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <title> intro to js </title>
+
+  <style>
+  .box{
+width: 100px;
+height: 30px;
+background-color: aqua;
+margin-bottom: 20px:
+  }
+  </style>
+</head>
+
+<body>
+  <div class="box" id="box1"> </div>
+  <div class="box" id="box2">click here</div>
+  <div class="box" id="box3">click here to hide</div>
+  <div class="box" id="box4">enter and leave to change text</div>
+
+  <div class="box" id="box4info"> <p>this is box 4 stuff </p> </div>
+<div id="box2info"><p>This is box2 stuff. </p> </div>
+<div class="box" id="box7">toggle stuff</div>
+
+<div class="box" id="box7info"> <p>this is box7 stuff </p> </div>
+  <script src="js/jquery-3.2.1.min.js"> </script>
+<script>
+$(document).ready(function(){
+//all javascript goes in here
+$("body").css("background-color", "pink");
+$("#box1").html ("<h1>hello all</h1>");
+$("#box2info").hide();
+$("#box2").click(function(){
+  $("#box2info").show();
+});
+$("#box3").click(function(){
+$("box2info").hide();
+});
+$("#box7").click(function(){
+  $(#"box7info").toggle(1000);
+});
+$("box4").mouseenter(function(){
+  $("#box4info").css("font-size", "20px")
+});
+$("box4").mouseenter(function({}
+  $("#box4info").css("font-size", "5px")
+});
+
+
+//no code after here
+  </script>
+
+</body>
+</head>
+</html>
