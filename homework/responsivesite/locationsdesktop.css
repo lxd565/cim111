@@ -1,7 +1,4 @@
-<!DOCTYPE HTML>
-
 <style>
-
 h2 {
   font-family: monospace;
   text-align: center;
@@ -64,23 +61,8 @@ body {
     padding: 10px;
     text-align: center;
 }
-table, td, th {
-    border: 1px solid #ddd;
-    text-align: left;
-    font-family:monospace;
-}
-
-table {
-    border-collapse: collapse;
-    width: 100%;
-}
-
-th, td {
-    padding: 15px;
-}
 .nav {
   font-family: monospace;
 
 }
-
 </style>

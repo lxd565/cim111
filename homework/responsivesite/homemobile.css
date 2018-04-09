@@ -1,0 +1,18 @@
+@import "homedesktop.css";
+
+
+.column {
+    float: none;
+    width: 100%;
+    padding: 15px;
+}
+
+.topnav a {
+    float: none;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: monospace;
+}
