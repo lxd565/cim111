@@ -1,10 +1,84 @@
 <!DOCTYPE HTML>
 
 <html>
+<head>
+  <title> How To Website </title>
+  <meta name="howtowebsite" content="chocolate chip cookies">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
-<div class="header">
+<script>
+$(document).ready(function(){
+    $("#hide").click(function(){
+        $("li").hide();
+    });
+    $("#show").click(function(){
+        $("li").show();
+    });
+        $("#p1").mouseleave(function(){
+           alert("All done and baked to perfection!");
+       });
+       $("p").on({
+    mouseenter: function(){
+        $(this).css("background-color", "lightgray");
+    },
+    mouseleave: function(){
+        $(this).css("background-color", "lightblue");
+    },
+    click: function(){
+        $(this).css("background-color", "peachpuff");
+    }
+});
+$("#replace").html("<p>For More Information 305-100-BAKE</p>");
+
+});
+</script>
+</head>
+
+
+<style>
+h2 {
+  font-family: monospace;
+}
+p {
+  font-family: monospace;
+}
+.header{
+  background-color: peachpuff;
+  padding: 20px;
+  text-align: center;
+  font-family: monospace;
+}
+
+ul {
+  list-style: none;
+}
+
+.column {
+    float: left;
+    width: 20%;
+    padding: 15px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.footer {
+    background-color: peachpuff;
+    padding: 10px;
+    text-align: center;
+}
+</style>
+
+
+<header>
+<div class="header" id="header">
   <h1> How to Make Chocolate Chip Cookies </h1>
-  <h2> Ingredients </h2>
+  <h4> Recipies by Lexi </h4>
+   <h2> <u> Ingredients </u> </h2>
+   <button id="hide">Hide</button>
+   <button id="show">Show</button>
   <nav>
     <ul>
       <li> 3/4 cup granulated sugar </li>
@@ -19,45 +93,40 @@
     </ul>
   </nav>
 </div>
+</header>
+
+
 
 <main>
 <div class="row">
     <div class="column">
-      <h2> Step 1 </h2>
+      <h2> <u> Step 1 </u> </h2>
       <p> Heat oven to 375 degrees F </p>
-    </div>
-    <div class="column">
-      <h2> Step 2 </h2>
       <p> Gather and measure out the ingredients </p>
     </div>
     <div class="column">
+      <h2> <u> Step 2 </u> </h2>
       <p> Mix butter, vanilla, egg, and both sugars in a large bowl </p>
       <p> Stir in the flour, baking soda, and salt </p>
       <p> Add in the chocolate chips and continue to mix </p>
     </div>
     <div class="column">
-      <h2> Step 3 </h2>
+      <h2> <u> Step 3 </u> </h2>
       <p> Scoop the dough using a spoon into desired proportions </p>
       <p> Then place the dough on a baking sheet pan. Make sure to use baking spray or a cookie sheet  </p>
-</div>
+      </div>
   <div class="column">
-    <h2> Step 4 </h2>
+    <h2> <u> Step 4  </u> </h2>
     <p> Put the sheet in the oven and bake for 8 to 10 minutes </p>
     <p> Once cooked through, let the cookies cool before eating </p>
+    <p id="p1"> Finished. </p>
   </div>
 </div>
+<div class="footer">
+
+  <h4 id="replace">Recipies by Lexi Donnellan</h4>
+</div>
+
 </main>
-
-<footer>
-</footer>
-
-
-
-
-
-
-
-
-
 
 </html>
