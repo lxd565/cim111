@@ -1,0 +1,107 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta name="vacationwebsite" content="vacation spot">
+
+  <link rel="stylesheet" href="css/flexslider.css" type="text/css">
+
+</head>
+<style>
+h1{
+  font-family: monospace;
+  text-align: center;
+}
+h3{
+  font-family: monospace;
+  text-align: center;
+}
+li {
+  font-family: monospace;
+  text-align: center;
+
+}
+
+body {
+  margin: 0;
+}
+
+
+.header {
+    background-color: lightblue;
+    padding: 20px;
+    text-align: center;
+    font-family: monospace;
+}
+.footer {
+    background-color: lightblue;
+    padding: 20px;
+    text-align: center;
+    font-family: monospace;
+}
+ul {
+  list-style: none;
+
+}
+
+ul a{
+  padding: 8px 16px;
+}
+</style>
+<body>
+<div class="header">
+  <h1> <u> Australia </u></h1>
+  <h3> This large country is home to many sights and activities. It is a very popular vacation spot, however is a very long plane ride away. It is perfect for all ages and is family friendly. There is always something todo no matter what part you are in. Activities range from scuba diving, snorkeling, sight seeing, exotic animals, surfing, and relaxing beaches. It is truly the place to be.
+</div>
+<main>
+  <div class="flexslider">
+    <ul class="slides">
+      <li>
+        <img src="images1/opreahouse.jpg" />
+      </li>
+      <li>
+        <img src="images1/nationalpark.jpg" />
+      </li>
+      <li>
+        <img src="images1/bondibeach.jpg" />
+      </li>
+      <li>
+        <img src="images1/sydneyharbourbridge.jpg" />
+      </li>
+      <li>
+        <img src="images1/bondipool.jpg"/>
+      </li>
+    </ul>
+  </div>
+  <div class="footer">
+
+    <nav>
+    <ul>
+    <li> Visit the famous Sydney Opera House
+      <a href="https://www.sydneyoperahouse.com">For more on Sydney Opera House</a></li>
+    <li> Take a dip in the pools of Bondi
+      <a href="https://icebergs.com.au"> A look at the Bondi Pools</a></li>
+    <li> Experience Australian culture at Uluru
+      <a href="https://parksaustralia.gov.au/uluru/">The Uluru Sandstone</a></li>
+    <li> Take a swing at the Cricket Grounds
+      <a href="https://www.australia.com/en-us/places/melbourne-and-surrounds/guide-to-the-melbourne-cricket-ground.html">Melbourne Cricket Ground</a></li>
+    <li> Nature lover? Kadadu National Park is the place
+      <a href="https://parksaustralia.gov.au/kakadu/">Kakadu National Park</a></li>
+    </ul>
+    </nav>
+  </div>
+</main>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+<script src="js/jquery.flexslider.js"></script>
+
+<script type="text/javascript" charset="utf-8">
+  $(window).load(function() {
+    $('.flexslider').flexslider();
+  });
+</script>
+
+
+</body>
+
+</html>
