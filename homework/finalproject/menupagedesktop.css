@@ -1,0 +1,89 @@
+<style>
+
+
+h1 {
+  font-family: monospace;
+  text-align: center;
+
+}
+h3 {
+  font-family: monospace;
+  text-align: center;
+  color: white;
+
+}
+h2 {
+  font-family: monospace;
+  text-align: center;
+
+}
+p {
+  font-family: monospace;
+  text-align: center;
+  padding-bottom: 10px;
+
+}
+h4 {
+  font-family: monospace;
+  text-align: center;
+  padding-bottom: 10px;
+
+}
+
+body {
+  margin: 0;
+}
+
+
+.grid-header {
+    background-color: lightgrey;
+    padding: 20px;
+    text-align: center;
+    font-family: monospace;
+}
+
+
+.topnav {
+    overflow: hidden;
+    background-color: teal;
+}
+
+
+.topnav a {
+    float: right;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: monospace;
+}
+
+.topnav a:hover {
+    background-color: darkgrey;
+    color: white;
+}
+
+.column {
+    float: left;
+    width: 30.3%;
+    padding: 15px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.column2 {
+    float: right;
+    width: 17%;
+    padding: 15px;
+}
+.footer {
+    background-color: lightgrey;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+</style>
